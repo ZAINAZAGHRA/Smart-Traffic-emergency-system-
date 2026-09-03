@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Emergency Traffic System | Dr. Zaina Zaghra</title>
+    <style>
+        :root {
+            --primary: #0a84ff;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --accent: #ef4444;
+            --gray: #64748b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: linear-gradient(135deg, var(--dark) 0%, #1e293b 100%); color: white; padding: 80px 20px; text-align: center; position: relative; overflow: hidden; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 10px; background: linear-gradient(90deg, var(--primary), var(--accent)); }
+        .badge { background-color: rgba(10, 132, 255, 0.2); color: #38bdf8; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; display: inline-block; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        h1 { font-size: 2.8rem; margin-bottom: 15px; font-weight: 800; letter-spacing: -0.5px; }
+        .tagline { font-size: 1.3rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 30px; font-weight: 300; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: white; padding: 35px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03); border: 1px solid #e2e8f0; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: var(--dark); margin-bottom: 15px; font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
+        .card-icon { font-size: 1.5rem; }
+        .section-title { text-align: center; font-size: 2rem; margin-bottom: 10px; color: var(--dark); font-weight: 700; }
+        .section-subtitle { text-align: center; color: var(--gray); max-width: 600px; margin: 0 auto 40px; }
+        .highlight-section { background-color: var(--dark); color: white; padding: 60px 40px; border-radius: 16px; margin: 60px 0; position: relative; }
+        .highlight-section h2 { font-size: 1.8rem; margin-bottom: 15px; color: white; }
+        .highlight-section p { color: #94a3b8; font-size: 1.1rem; max-width: 800px; }
+        .cta-btn { display: inline-block; background: linear-gradient(90deg, var(--primary), #0066cc); color: white; padding: 14px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 25px; transition: opacity 0.2s; box-shadow: 0 4px 12px rgba(10, 132, 255, 0.3); }
+        .cta-btn:hover { opacity: 0.9; }
+        footer { text-align: center; padding: 40px 20px; color: var(--gray); border-top: 1px solid #e2e8f0; font-size: 0.95rem; }
+        footer a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        @media (max-width: 768px) { h1 { font-size: 2rem; } .tagline { font-size: 1.1rem; } .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="badge">Concept Pitch</span>
+        <h1>Smart Emergency Traffic System</h1>
+        <p class="tagline">Transforming urban mobility and saving lives through AI-powered emergency priority routing.</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">The Core Infrastructure</h2>
+        <p class="section-subtitle">A modern approach to cutting emergency response times and positioning cities at the forefront of smart mobility.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <h3><span class="card-icon">🤖</span> AI Optimization</h3>
+                <p>Analyzes live municipal traffic flows dynamically to calculate and clear optimal pathways for emergency vehicles minutes before they arrive.</p>
+            </div>
+            <div class="card">
+                <h3><span class="card-icon">🗺️</span> Map Integration</h3>
+                <p>Designed to deeply integrate with mapping ecosystems to dynamically synchronize route shifts, bypass congestion, and log real-time data layers.</p>
+            </div>
+            <div class="card">
+                <h3><span class="card-icon">🚦</span> Smart Grid Sync</h3>
+                <p>Communicates directly with localized intersection hardware, temporarily modifying signal phases to grant seamless green-light priority cascades.</p>
+            </div>
+        </div>
+
+        <div class="highlight-section">
+            <h2>The Strategic Opportunity</h2>
+            <p>While legacy systems depend entirely on broad, non-localized APIs, this architecture offers a high-value B2B/G2G layer. By pioneering this life-saving smart city setup, mapping platforms can transition from standard navigators to vital national infrastructure.</p>
+        </div>
+        
+        <h2 class="section-title" style="margin-top: 40px;">Let's Collaborate</h2>
+        <p class="section-subtitle">Available for deep-dive presentations and technical reviews regarding the architecture and deployment strategy.</p>
+        
+        <div style="text-align: center;">
+            <p style="font-size: 1.2rem; font-weight: 600; color: var(--dark);">Dr. Zaina Zaghra</p>
+            <p style="color: var(--gray); margin-bottom: 20px;">Strategic Vision & Concept Lead</p>
+            <a href="tel:0557277886" class="cta-btn">Call +966 55 727 7886</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dr. Zaina Zaghra. Structured for professional executive review.</p>
+    </footer>
+
+</body>
+</html>
